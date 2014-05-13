@@ -1,0 +1,255 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D46ABE6516EF2D7B0033C8AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D46ABE6416EF2D7B0033C8AB /* Foundation.framework */; };
+		D46ABE6816EF2D7B0033C8AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D46ABE6716EF2D7B0033C8AB /* main.m */; };
+		D46ABE6C16EF2D7B0033C8AB /* NSKeyedArchiverTest.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = D46ABE6B16EF2D7B0033C8AB /* NSKeyedArchiverTest.1 */; };
+		D46ABE7416EF2DA60033C8AB /* Member.m in Sources */ = {isa = PBXBuildFile; fileRef = D46ABE7316EF2DA60033C8AB /* Member.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D46ABE5F16EF2D7B0033C8AB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				D46ABE6C16EF2D7B0033C8AB /* NSKeyedArchiverTest.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D46ABE6116EF2D7B0033C8AB /* NSKeyedArchiverTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NSKeyedArchiverTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D46ABE6416EF2D7B0033C8AB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D46ABE6716EF2D7B0033C8AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D46ABE6A16EF2D7B0033C8AB /* NSKeyedArchiverTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSKeyedArchiverTest-Prefix.pch"; sourceTree = "<group>"; };
+		D46ABE6B16EF2D7B0033C8AB /* NSKeyedArchiverTest.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = NSKeyedArchiverTest.1; sourceTree = "<group>"; };
+		D46ABE7216EF2DA60033C8AB /* Member.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Member.h; sourceTree = "<group>"; };
+		D46ABE7316EF2DA60033C8AB /* Member.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Member.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D46ABE5E16EF2D7B0033C8AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D46ABE6516EF2D7B0033C8AB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D46ABE5816EF2D7B0033C8AB = {
+			isa = PBXGroup;
+			children = (
+				D46ABE6616EF2D7B0033C8AB /* NSKeyedArchiverTest */,
+				D46ABE6316EF2D7B0033C8AB /* Frameworks */,
+				D46ABE6216EF2D7B0033C8AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D46ABE6216EF2D7B0033C8AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D46ABE6116EF2D7B0033C8AB /* NSKeyedArchiverTest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D46ABE6316EF2D7B0033C8AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D46ABE6416EF2D7B0033C8AB /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D46ABE6616EF2D7B0033C8AB /* NSKeyedArchiverTest */ = {
+			isa = PBXGroup;
+			children = (
+				D46ABE6716EF2D7B0033C8AB /* main.m */,
+				D46ABE7216EF2DA60033C8AB /* Member.h */,
+				D46ABE7316EF2DA60033C8AB /* Member.m */,
+				D46ABE6B16EF2D7B0033C8AB /* NSKeyedArchiverTest.1 */,
+				D46ABE6916EF2D7B0033C8AB /* Supporting Files */,
+			);
+			path = NSKeyedArchiverTest;
+			sourceTree = "<group>";
+		};
+		D46ABE6916EF2D7B0033C8AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D46ABE6A16EF2D7B0033C8AB /* NSKeyedArchiverTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D46ABE6016EF2D7B0033C8AB /* NSKeyedArchiverTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D46ABE6F16EF2D7B0033C8AB /* Build configuration list for PBXNativeTarget "NSKeyedArchiverTest" */;
+			buildPhases = (
+				D46ABE5D16EF2D7B0033C8AB /* Sources */,
+				D46ABE5E16EF2D7B0033C8AB /* Frameworks */,
+				D46ABE5F16EF2D7B0033C8AB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSKeyedArchiverTest;
+			productName = NSKeyedArchiverTest;
+			productReference = D46ABE6116EF2D7B0033C8AB /* NSKeyedArchiverTest */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D46ABE5916EF2D7B0033C8AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = skyler;
+			};
+			buildConfigurationList = D46ABE5C16EF2D7B0033C8AB /* Build configuration list for PBXProject "NSKeyedArchiverTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D46ABE5816EF2D7B0033C8AB;
+			productRefGroup = D46ABE6216EF2D7B0033C8AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D46ABE6016EF2D7B0033C8AB /* NSKeyedArchiverTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D46ABE5D16EF2D7B0033C8AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D46ABE6816EF2D7B0033C8AB /* main.m in Sources */,
+				D46ABE7416EF2DA60033C8AB /* Member.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D46ABE6D16EF2D7B0033C8AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D46ABE6E16EF2D7B0033C8AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D46ABE7016EF2D7B0033C8AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSKeyedArchiverTest/NSKeyedArchiverTest-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D46ABE7116EF2D7B0033C8AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSKeyedArchiverTest/NSKeyedArchiverTest-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D46ABE5C16EF2D7B0033C8AB /* Build configuration list for PBXProject "NSKeyedArchiverTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D46ABE6D16EF2D7B0033C8AB /* Debug */,
+				D46ABE6E16EF2D7B0033C8AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D46ABE6F16EF2D7B0033C8AB /* Build configuration list for PBXNativeTarget "NSKeyedArchiverTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D46ABE7016EF2D7B0033C8AB /* Debug */,
+				D46ABE7116EF2D7B0033C8AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D46ABE5916EF2D7B0033C8AB /* Project object */;
+}
